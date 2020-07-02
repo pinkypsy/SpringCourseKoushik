@@ -8,6 +8,11 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <bean id="triangle" class="ua.alvin.Triangle"/>
+    <bean id="triangle" class="main.ua.alvin.Triangle">
+<constructor-arg name="type" value="equilateral"/>
+    <constructor-arg name="height" value="20"/>
+    </bean>
+
+
 
 </beans>
